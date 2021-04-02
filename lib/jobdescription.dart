@@ -37,6 +37,7 @@ class _JopDescriptionState extends State<JopDescription> {
                   textDirection: TextDirection.rtl,
                 ),
               ),
+              trailing: Icon(Icons.home),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -53,6 +54,7 @@ class _JopDescriptionState extends State<JopDescription> {
                   textDirection: TextDirection.rtl,
                 ),
               ),
+              trailing: Icon(Icons.person),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -69,6 +71,7 @@ class _JopDescriptionState extends State<JopDescription> {
                   textDirection: TextDirection.rtl,
                 ),
               ),
+              trailing: Icon(Icons.info),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -85,6 +88,7 @@ class _JopDescriptionState extends State<JopDescription> {
                   textDirection: TextDirection.rtl,
                 ),
               ),
+              trailing: Icon(Icons.call),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -101,6 +105,7 @@ class _JopDescriptionState extends State<JopDescription> {
                   textDirection: TextDirection.rtl,
                 ),
               ),
+              trailing: Icon(Icons.logout),
               onTap: () {
                 Navigator.pop(context);
               },
