@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:khedma/servicerequest.dart';
 
+import 'homescreen.dart';
+
 class JopDescription extends StatefulWidget {
   @override
   _JopDescriptionState createState() => _JopDescriptionState();
@@ -39,7 +41,12 @@ class _JopDescriptionState extends State<JopDescription> {
               ),
               trailing: Icon(Icons.home),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomeScreen(),
+                  ),
+                );
               },
             ),
             ListTile(

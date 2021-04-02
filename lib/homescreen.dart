@@ -41,7 +41,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               trailing: Icon(Icons.home),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomeScreen(),
+                  ),
+                );
               },
             ),
             ListTile(
